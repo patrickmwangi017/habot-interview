@@ -1,0 +1,6 @@
+.section-1 {
+    background-image: url('../../../public/section-1-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 609px;
+}
