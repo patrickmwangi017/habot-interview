@@ -16,11 +16,7 @@ function App() {
         <div className="row section-1">
           <div className='col-md-12'>
             <h1 style={{ color: "#fff", textAlign: 'center', width: '100%', marginTop: '10%', fontWeight: '700', fontSize: '55px' }}>Are You a Supplier?</h1>
-<<<<<<< HEAD
             <h1 style={{ color: "#fff", textAlign: 'center', width: '100%' }}>Explore Matching Opportunities.</h1>
-=======
-            <h4 style={{ color: "#fff", textAlign: 'center', width: '100%' }}>Explore Matching Opportunities.</h4>
->>>>>>> e2ae76c11f549a24aab3101072488003977917c6
           </div>
         </div>
         <Container className="my-5">
