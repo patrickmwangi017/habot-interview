@@ -11,6 +11,7 @@ const Card = ({ icon, title, backgroundColor }) => {
         border: 'none',
         textAlign: 'center',
         height: '254px',
+        borderRadius: '0px',
       }}
     >
       <img

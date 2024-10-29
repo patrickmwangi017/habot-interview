@@ -188,24 +188,24 @@ function App() {
               <h2 className='pb-2 habot-title'>How it works?</h2>
               <p className='pb-2 habot-text'>Buyers post their needs and review top suppliers, while suppliers complete profiles, connect with potential buyers, and build successful business relationships, sharing valuable feedback.</p>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 p-0">
               <Card icon={Icon1} title="Select Your Role and Sign Up" backgroundColor="#E8FBFF" />
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 p-0">
               <Card icon={Icon2} title="Buyers Post Your Requirements" backgroundColor="#fff" />
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 p-0">
               <Card icon={Icon3} title="Review, Select, and Contact the Best Suppliers" backgroundColor="#E8FBFF" />
             </div>
           </div>
           <div className="row mt-4">
-            <div className="col-md-4">
+            <div className="col-md-4 p-0">
               <Card icon={Icon4} title="Suppliers Complete your profile and get notified for opportunities" backgroundColor="#fff" />
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 p-0">
               <Card icon={Icon5} title="Contact to Buyers and Share your Quote for the service" backgroundColor="#E8FBFF" />
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 p-0">
               <Card icon={Icon6} title="Both the Parties can Connect and Make Business Leave a Feedback" backgroundColor="#fff" />
             </div>
           </div>
