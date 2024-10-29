@@ -14,6 +14,7 @@ import Icon5 from './img/5.png';
 import Icon6 from './img/6.png';
 import Icon7 from './img/mail.png';
 import Icon8 from './img/location.png';
+import IconChecked from './img/checked.png';
 import VideoSection from './components/VideoSection';
 import Card from './components/Card'; // Import the Card component
 
@@ -129,15 +130,15 @@ function App() {
                 >
                   <ul className="list-unstyled">
                     <li className="d-flex align-items-center mb-2">
-                      <div className="check-icon"><FontAwesomeIcon icon={faCheck} /></div>
+                      <div className="check-icon"><img src={IconChecked} alt="Checked" /></div>
                       <span>Post your requirements.</span>
                     </li>
                     <li className="d-flex align-items-center mb-2">
-                      <div className="check-icon"><FontAwesomeIcon icon={faCheck} /></div>
+                      <div className="check-icon"><img src={IconChecked} alt="Checked" /></div>
                       <span>Sit back for multiple suppliers to contact you. </span>
                     </li>
                     <li className="d-flex align-items-center mb-2">
-                      <div className="check-icon"><FontAwesomeIcon icon={faCheck} /></div>
+                      <div className="check-icon"><img src={IconChecked} alt="Checked" /></div>
                       <span> Choose among the suppliers based on the ratings and reviews.</span>
                     </li>
                   </ul>
@@ -150,15 +151,15 @@ function App() {
                 >
                   <ul className="list-unstyled">
                     <li className="d-flex align-items-center mb-2">
-                      <div className="check-icon"><FontAwesomeIcon icon={faCheck} /></div>
+                      <div className="check-icon"><img src={IconChecked} alt="Checked" /></div>
                       <span>Post your requirements.</span>
                     </li>
                     <li className="d-flex align-items-center mb-2">
-                      <div className="check-icon"><FontAwesomeIcon icon={faCheck} /></div>
+                      <div className="check-icon"><img src={IconChecked} alt="Checked" /></div>
                       <span>Sit back for multiple suppliers to contact you.</span>
                     </li>
                     <li className="d-flex align-items-center mb-2">
-                      <div className="check-icon"><FontAwesomeIcon icon={faCheck} /></div>
+                      <div className="check-icon"><img src={IconChecked} alt="Checked" /></div>
                       <span> Choose among the suppliers based on the ratings and reviews.</span>
                     </li>
                   </ul>
@@ -172,7 +173,7 @@ function App() {
           <Container className='h-100'>
             <div className="row h-100">
               <div className='col-md-6 d-flex align-items-center justify-content-center'>
-                <h2 className='pb-2' style={{ color: "#000", fontWeight: '600', fontSize: '37.34px' }}>Let Suppliers <a href='#' style={{ borderBottom: "3px solid #EB7150", color: "#000", textDecoration: "none" }}> Find You. </a></h2>
+                <h2 className='pb-2' style={{ color: "#000", fontWeight: '600', fontSize: '37.34px' }}>Let Suppliers <a href='#' style={{ borderBottom: "4px solid #EB7150", color: "#000", textDecoration: "none" }}> Find You. </a></h2>
               </div>
               <div className='col-md-6 d-flex align-items-center justify-content-center'>
                 <button className='section-4-btn d-flex align-items-center justify-content-around' style={{ fontWeight: '700', fontSize: '18px', color: "#fff" }}> Get Verified </button>

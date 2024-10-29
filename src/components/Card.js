@@ -16,7 +16,7 @@ const Card = ({ icon, title, backgroundColor }) => {
       <img
         src={icon}
         alt={title}
-        style={{ width: '50px', height: '50px', marginBottom: '10px' }}
+        style={{ width: '70px', height: '70px', marginBottom: '22px' }}
       />
       <h4 style={{ fontSize: '20px', lineHeight: '26px', fontWeight: '500' }}>
         {title}

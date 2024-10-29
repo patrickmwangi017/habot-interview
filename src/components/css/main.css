@@ -93,21 +93,29 @@
     background-color: #072F57;
     height: 623px;
 }
-.nav-tabs, .nav-tabs:hover {
+.nav-tabs, .nav-tabs:hover, .nav-tabs .nav-link:hover {
     border: unset !important;
   }
   
   .nav-tabs .nav-link {
     color: #fff !important;
     font-size: 26px !important;
+    font-weight: 700;
+    line-height: 32px;
   }
+  /* .nav-tabs .nav-link:hover {
+    color: #fff !important;
+    font-size: 26px !important;
+    font-weight: 700;
+    line-height: 32px;
+  } */
   
   .nav-tabs .nav-item.show .nav-link,
-  .nav-tabs .nav-link.active, .nav-link:hover {
+  .nav-tabs .nav-link.active {
     border: unset !important;
-    color: orange !important;
+    color: #EB7150 !important;
     background-color: transparent !important;
-    border-bottom: 2px solid orange !important;
+    border-bottom: 4px solid #EB7150 !important;
   }
   
   .list-unstyled {
