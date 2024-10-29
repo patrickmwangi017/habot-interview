@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import 'colors.css';
 
 /* Footer styles */
@@ -12,3 +13,18 @@ footer a {
   margin: 0 10px;
   color: #ffffff;
 }
+=======
+/* Footer styles */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+  }
+  
+  footer a {
+    margin: 0 10px;
+    color: #ffffff;
+  }
+  
+>>>>>>> e2ae76c11f549a24aab3101072488003977917c6
