@@ -58,11 +58,7 @@ function App() {
 
           <div className="row">
             <div className='col-md-6'>
-<<<<<<< HEAD
             <iframe width="100%" height="350px" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-=======
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/tgbNymZ7vqY">
->>>>>>> e2ae76c11f549a24aab3101072488003977917c6
             </iframe>
             </div>
             <div className='col-md-6'>
