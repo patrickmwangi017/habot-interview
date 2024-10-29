@@ -1,0 +1,26 @@
+.section-1 {
+    background-image: url('../../../public/section-1-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 609px;
+}
+.section-2-btn, .section-2-btn:hover {
+    width: 317px;
+    height: 54px;
+    border-radius: 5px;
+    border: 1px solid #00732F;
+    color: #fff;
+    background-color: #00732F;
+}
+.section-2-btn-2 {
+    width: 45%;
+    height: 65px;
+    border-radius: 5px;
+    border: 1px solid #E7760D;
+    color: #3E3E3E;
+    background: #fff;
+}
+.section-3 {
+    background-color: #072F57;
+    height: 623px;
+}

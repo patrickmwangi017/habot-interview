@@ -1,0 +1,15 @@
+/* Customize your header if needed */
+.navbar {
+    background-color: #fff; /* Override default bootstrap colors */
+  }
+  
+  .navbar-brand img {
+    margin-right: 10px;
+  }
+  .navbar .btn, .navbar .btn:hover {
+    width: 193.31px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #00732F;
+  }
+  

@@ -1,0 +1,38 @@
+:root {
+    --bs-primary: #072F57;
+    --bs-secondary: #EB7150;
+    --bs-success: #00732F;
+    --bs-danger: #dc3545;
+    --bs-warning: #ffc107;
+    --bs-info: #17a2b8;
+    --bs-light: #f8f9fa;
+    --bs-dark: #343a40;
+}
+
+/* Override Bootstrap classes directly */
+.btn-primary {
+    background-color: #123557;
+    border-color: #123557;
+}
+
+.btn-secondary {
+    background-color: #EB7150;
+    border-color: #EB7150;
+}
+
+/* Override text and background utility classes */
+.bg-primary {
+    background-color: #123557 !important;
+}
+
+.text-primary {
+    color: #123557 !important;
+}
+
+.bg-secondary {
+    background-color: #EB7150 !important;
+}
+
+.text-secondary {
+    color: #EB7150 !important;
+}
