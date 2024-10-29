@@ -1,3 +1,14 @@
+.habot-title {
+    color: #000;
+    font-weight: 700;
+    font-size: 37.34px;
+}
+.habot-text {
+    color: #000;
+    font-weight: 400;
+    font-size: 17.16px;
+    width: 100%;
+}
 .section-1 {
     background-image: url('../../../public/section-1-bg.png');
     background-size: cover;
@@ -64,6 +75,8 @@
     border: 1px solid #00732F;
     color: #fff;
     background-color: #00732F;
+    font-size: 18px;
+    font-weight: 700;
 }
 .section-2-btn-2 {
     width: 45%;
@@ -72,6 +85,9 @@
     border: 1px solid #E7760D;
     color: #3E3E3E;
     background: #fff;
+    font-size: 18.75px;
+    font-weight: 500;
+    /* font-family: inter; */
 }
 .section-3 {
     background-color: #072F57;
@@ -97,6 +113,8 @@
   .list-unstyled {
     color: #fff !important;
     margin-top: 20px;
+    font-size: 18.75px;
+    font-weight: 500;
   }
   
   .check-icon {

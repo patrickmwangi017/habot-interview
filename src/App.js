@@ -27,14 +27,14 @@ function App() {
       <main>
         <div className="row section-1">
           <div className='col-md-12'>
-            <h1 style={{ color: "#fff", textAlign: 'center', width: '100%', marginTop: '10%', fontWeight: '700', fontSize: '55px' }}>Are You a Supplier?</h1>
-            <h1 style={{ color: "#fff", textAlign: 'center', width: '100%' }}>Explore Matching Opportunities.</h1>
+            <h1 style={{ color: "#fff", textAlign: 'center', width: '100%', marginTop: '10%', fontWeight: '700', fontSize: '66px' }}>Are You a Supplier?</h1>
+            <h1 style={{ color: "#fff", textAlign: 'center', width: '100%', fontWeight: '400', fontSize: '55px' }}>Explore Matching Opportunities.</h1>
           </div>
 
           <div className='col-md-12 d-flex justify-content-center' style={{ marginTop: '20px' }}>
             <div className="search-input-group">
               <div className="input-icon">
-                <img src={Icon7}  className='input-icon-img' alt="Search Icon 1" />
+                <img src={Icon7} className='input-icon-img' alt="Search Icon 1" />
                 <input
                   type="text"
                   placeholder="Search for Suppliers"
@@ -42,7 +42,7 @@ function App() {
                 />
               </div>
               <div className="input-icon">
-                <img src={Icon8}  className='input-icon-img' alt="Search Icon 2" />
+                <img src={Icon8} className='input-icon-img' alt="Search Icon 2" />
                 <input
                   type="text"
                   placeholder="Search for Products"
@@ -54,12 +54,15 @@ function App() {
               </button>
             </div>
           </div>
+          <div className='col-md-12'>
+            <p style={{ color: "#fff", fontSize: "18px", fontWeight: "700", textAlign: "center" }}> Are You a Buyer? <span style={{ color: "#fff", fontSize: "18px", fontWeight: "400", textDecoration: "underline" }}><a>Click here if you are looking to post a requirements</a></span> </p>
+          </div>
         </div>
         <Container className="my-5">
           <div className="row">
-            <h2 className='pb-2' style={{ color: "#000", fontWeight: '700', fontSize: '37.34px' }}>Ready to dive into <a href='#' style={{ color: "#271555" }}> HABOT? </a></h2>
+            <h2 className='pb-2 habot-title'>Ready to dive into <a href='#' style={{ color: "#271555" }}> HABOT? </a></h2>
             <div className='col-md-6'>
-              <p className='pb-2' style={{ color: "#000", textAlign: 'left', width: '100%' }}>Signing up with HABOT opens the door to a world of new opportunities and potential for business growth. Gain access to a vibrant community of like-minded individuals, unlock valuable resources, and take the first step towards realizing your entrepreneurial dreams.</p>
+              <p className='pb-2 habot-text' style={{ textAlign: 'left' }}>Signing up with HABOT opens the door to a world of new opportunities and potential for business growth. Gain access to a vibrant community of like-minded individuals, unlock valuable resources, and take the first step towards realizing your entrepreneurial dreams.</p>
               <button className='section-2-btn d-flex align-items-center justify-content-around mb-5' style={{ fontWeight: '700', fontSize: '18px' }}> Sign up Today ! <FontAwesomeIcon icon={faArrowRight} /> </button>
             </div>
             <div className='col-md-6'>
@@ -169,7 +172,7 @@ function App() {
           <Container className='h-100'>
             <div className="row h-100">
               <div className='col-md-6 d-flex align-items-center justify-content-center'>
-                <h2 className='pb-2' style={{ color: "#000", fontWeight: '700', fontSize: '37.34px' }}>Let Suppliers <a href='#' style={{ borderBottom: "3px solid #EB7150", color: "#000", textDecoration: "none" }}> Find You. </a></h2>
+                <h2 className='pb-2' style={{ color: "#000", fontWeight: '600', fontSize: '37.34px' }}>Let Suppliers <a href='#' style={{ borderBottom: "3px solid #EB7150", color: "#000", textDecoration: "none" }}> Find You. </a></h2>
               </div>
               <div className='col-md-6 d-flex align-items-center justify-content-center'>
                 <button className='section-4-btn d-flex align-items-center justify-content-around' style={{ fontWeight: '700', fontSize: '18px', color: "#fff" }}> Get Verified </button>
@@ -180,6 +183,10 @@ function App() {
 
         <div className="container my-5">
           <div className="row">
+            <div className="col-md-12 text-center">
+              <h2 className='pb-2 habot-title'>How it works?</h2>
+              <p className='pb-2 habot-text'>Buyers post their needs and review top suppliers, while suppliers complete profiles, connect with potential buyers, and build successful business relationships, sharing valuable feedback.</p>
+            </div>
             <div className="col-md-4">
               <Card icon={Icon1} title="Select Your Role and Sign Up" backgroundColor="#E8FBFF" />
             </div>
