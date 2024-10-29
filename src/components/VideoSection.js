@@ -17,7 +17,7 @@ const VideoSection = () => {
           style={{
             backgroundImage: `url(${BackgroundImage})`,
             backgroundSize: 'cover',
-            width: '640px',
+            width: '100%',
             height: '350px',
             position: 'relative',
             cursor: 'pointer',
@@ -39,7 +39,7 @@ const VideoSection = () => {
       )}
       {isPlaying && (
         <iframe
-          width="640px"
+          width="100%"
           height="350px"
           src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1"
           frameBorder="0"

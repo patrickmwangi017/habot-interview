@@ -30,26 +30,26 @@ function App() {
             <h1 style={{ color: "#fff", textAlign: 'center', width: '100%', marginTop: '10%', fontWeight: '700', fontSize: '55px' }}>Are You a Supplier?</h1>
             <h1 style={{ color: "#fff", textAlign: 'center', width: '100%' }}>Explore Matching Opportunities.</h1>
           </div>
-         
-          <div className='col-md-12 d-flex justify-content-center'>
+
+          <div className='col-md-12 d-flex justify-content-center' style={{ marginTop: '20px' }}>
             <div className="search-input-group">
               <div className="input-icon">
-                <img src={Icon7} alt="Search Icon 1" style={{ width: '20px', height: '20px', position: 'absolute', margin: '10px' }} />
+                <img src={Icon7}  className='input-icon-img' alt="Search Icon 1" />
                 <input
                   type="text"
                   placeholder="Search for Suppliers"
                   className="search-input"
                 />
               </div>
-              <div className="input-icon" style={{ marginLeft: '10px' }}>
-                <img src={Icon8} alt="Search Icon 2" style={{ width: '20px', height: '20px', position: 'absolute', margin: '10px' }} />
+              <div className="input-icon">
+                <img src={Icon8}  className='input-icon-img' alt="Search Icon 2" />
                 <input
                   type="text"
                   placeholder="Search for Products"
                   className="search-input"
                 />
               </div>
-              <button className="search-button" style={{ marginLeft: '10px', padding: '10px 20px', backgroundColor: 'green', color: 'white', border: 'none', borderRadius: '5px' }}>
+              <button className="search-button">
                 Search
               </button>
             </div>
@@ -60,7 +60,7 @@ function App() {
             <h2 className='pb-2' style={{ color: "#000", fontWeight: '700', fontSize: '37.34px' }}>Ready to dive into <a href='#' style={{ color: "#271555" }}> HABOT? </a></h2>
             <div className='col-md-6'>
               <p className='pb-2' style={{ color: "#000", textAlign: 'left', width: '100%' }}>Signing up with HABOT opens the door to a world of new opportunities and potential for business growth. Gain access to a vibrant community of like-minded individuals, unlock valuable resources, and take the first step towards realizing your entrepreneurial dreams.</p>
-              <button className='section-2-btn d-flex align-items-center justify-content-around' style={{ fontWeight: '700', fontSize: '18px' }}> Sign up Today ! <FontAwesomeIcon icon={faArrowRight} /> </button>
+              <button className='section-2-btn d-flex align-items-center justify-content-around mb-5' style={{ fontWeight: '700', fontSize: '18px' }}> Sign up Today ! <FontAwesomeIcon icon={faArrowRight} /> </button>
             </div>
             <div className='col-md-6'>
               <div className="row mb-2">
