@@ -30,37 +30,7 @@ function App() {
             <h1 style={{ color: "#fff", textAlign: 'center', width: '100%', marginTop: '10%', fontWeight: '700', fontSize: '55px' }}>Are You a Supplier?</h1>
             <h1 style={{ color: "#fff", textAlign: 'center', width: '100%' }}>Explore Matching Opportunities.</h1>
           </div>
-          <div className='col-md-4 d-flex justify-content-center'>
-          <div className="search-input-group">
-              <div className="input-icon">
-                <img src={Icon7} alt="Search Icon 1" style={{ width: '20px', height: '20px', position: 'absolute', margin: '10px' }} />
-                <input
-                  type="text"
-                  placeholder="Search for Suppliers"
-                  className="search-input"
-                />
-              </div>
-              </div>
-          </div>
-          <div className='col-md-4 d-flex justify-content-center'>
-          <div className="search-input-group">
-            <div className="input-icon" style={{ marginLeft: '10px' }}>
-                <img src={Icon8} alt="Search Icon 2" style={{ width: '20px', height: '20px', position: 'absolute', margin: '10px' }} />
-                <input
-                  type="text"
-                  placeholder="Search for Products"
-                  className="search-input"
-                />
-              </div>
-              </div>
-          </div>
-          <div className='col-md-4 d-flex justify-content-center'>
-          <div className="search-input-group">
-          <button className="search-button" style={{ marginLeft: '10px', padding: '10px 20px', backgroundColor: 'green', color: 'white', border: 'none', borderRadius: '5px' }}>
-                Search
-              </button>
-              </div>
-          </div>
+         
           <div className='col-md-12 d-flex justify-content-center'>
             <div className="search-input-group">
               <div className="input-icon">
