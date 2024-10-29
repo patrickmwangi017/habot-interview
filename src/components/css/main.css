@@ -4,6 +4,35 @@
     background-repeat: no-repeat;
     height: 609px;
 }
+.search-input-group {
+    display: flex;
+    flex-direction: column; /* Stack items vertically by default */
+    align-items: center; /* Center items horizontally */
+  }
+  
+  .input-icon {
+    position: relative;
+    width: 100%; /* Full width on mobile */
+    max-width: 400px; /* Optional: maximum width for larger screens */
+    margin-bottom: 10px; /* Space between inputs */
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px 40px; /* Padding for input */
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: #000; /* Text color inside input */
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
 .section-2-btn, .section-2-btn:hover {
     width: 317px;
     height: 54px;

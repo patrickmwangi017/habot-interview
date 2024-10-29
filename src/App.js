@@ -12,16 +12,10 @@ import Icon3 from './img/3.png';
 import Icon4 from './img/4.png';
 import Icon5 from './img/5.png';
 import Icon6 from './img/6.png';
+import Icon7 from './img/mail.png';
+import Icon8 from './img/location.png';
 import VideoSection from './components/VideoSection';
-
-const Card = ({ icon, title, backgroundColor }) => {
-  return (
-    <div className="card d-flex align-items-center justify-content-center" style={{ backgroundColor, padding: '20px', border: 'none', textAlign: 'center', height: "254px" }}>
-      <img src={icon} alt={title} style={{ width: '50px', height: '50px', marginBottom: '10px' }} />
-      <h4 style={{ fontSize: "20px", lineHeight: "26px", fontWeight: "500" }}>{title}</h4>
-    </div>
-  );
-};
+import Card from './components/Card'; // Import the Card component
 
 function App() {
   return (
@@ -35,6 +29,60 @@ function App() {
           <div className='col-md-12'>
             <h1 style={{ color: "#fff", textAlign: 'center', width: '100%', marginTop: '10%', fontWeight: '700', fontSize: '55px' }}>Are You a Supplier?</h1>
             <h1 style={{ color: "#fff", textAlign: 'center', width: '100%' }}>Explore Matching Opportunities.</h1>
+          </div>
+          <div className='col-md-4 d-flex justify-content-center'>
+          <div className="search-input-group">
+              <div className="input-icon">
+                <img src={Icon7} alt="Search Icon 1" style={{ width: '20px', height: '20px', position: 'absolute', margin: '10px' }} />
+                <input
+                  type="text"
+                  placeholder="Search for Suppliers"
+                  className="search-input"
+                />
+              </div>
+              </div>
+          </div>
+          <div className='col-md-4 d-flex justify-content-center'>
+          <div className="search-input-group">
+            <div className="input-icon" style={{ marginLeft: '10px' }}>
+                <img src={Icon8} alt="Search Icon 2" style={{ width: '20px', height: '20px', position: 'absolute', margin: '10px' }} />
+                <input
+                  type="text"
+                  placeholder="Search for Products"
+                  className="search-input"
+                />
+              </div>
+              </div>
+          </div>
+          <div className='col-md-4 d-flex justify-content-center'>
+          <div className="search-input-group">
+          <button className="search-button" style={{ marginLeft: '10px', padding: '10px 20px', backgroundColor: 'green', color: 'white', border: 'none', borderRadius: '5px' }}>
+                Search
+              </button>
+              </div>
+          </div>
+          <div className='col-md-12 d-flex justify-content-center'>
+            <div className="search-input-group">
+              <div className="input-icon">
+                <img src={Icon7} alt="Search Icon 1" style={{ width: '20px', height: '20px', position: 'absolute', margin: '10px' }} />
+                <input
+                  type="text"
+                  placeholder="Search for Suppliers"
+                  className="search-input"
+                />
+              </div>
+              <div className="input-icon" style={{ marginLeft: '10px' }}>
+                <img src={Icon8} alt="Search Icon 2" style={{ width: '20px', height: '20px', position: 'absolute', margin: '10px' }} />
+                <input
+                  type="text"
+                  placeholder="Search for Products"
+                  className="search-input"
+                />
+              </div>
+              <button className="search-button" style={{ marginLeft: '10px', padding: '10px 20px', backgroundColor: 'green', color: 'white', border: 'none', borderRadius: '5px' }}>
+                Search
+              </button>
+            </div>
           </div>
         </div>
         <Container className="my-5">
@@ -69,7 +117,7 @@ function App() {
 
         <Container className="my-5 section-3">
           <div className="row align-items-center" style={{ height: '100%' }}>
-          <VideoSection />
+            <VideoSection />
             <div className='col-md-6'>
               <ul className="nav nav-tabs justify-content-evenly" id="myTab" role="tablist">
                 <li className="nav-item">
@@ -169,12 +217,12 @@ function App() {
               <Card icon={Icon2} title="Buyers Post Your Requirements" backgroundColor="#fff" />
             </div>
             <div className="col-md-4">
-              <Card icon={Icon3} title=" Review, Select, and Contact the Best Suppliers" backgroundColor="#E8FBFF" />
+              <Card icon={Icon3} title="Review, Select, and Contact the Best Suppliers" backgroundColor="#E8FBFF" />
             </div>
           </div>
           <div className="row mt-4">
             <div className="col-md-4">
-              <Card icon={Icon4} title=" Suppliers Complete your profile and get notified for opportunities" backgroundColor="#fff" />
+              <Card icon={Icon4} title="Suppliers Complete your profile and get notified for opportunities" backgroundColor="#fff" />
             </div>
             <div className="col-md-4">
               <Card icon={Icon5} title="Contact to Buyers and Share your Quote for the service" backgroundColor="#E8FBFF" />
