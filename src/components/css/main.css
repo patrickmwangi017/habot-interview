@@ -13,7 +13,7 @@
     background-image: url('../../../public/section-1-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 609px;
+    height: 523px;
 }
 .search-input-group {
     display: flex;
@@ -39,6 +39,7 @@
   }
   
   .search-input {
+    min-width: 400px;
     width: 100%;
     height: 56px;
     padding: 10px 40px; /* Padding for input */
@@ -81,6 +82,7 @@
     font-size: 18px;
     font-weight: 700;
 }
+
 .section-2-btn-2 {
     width: 45%;
     height: 65px;
@@ -90,7 +92,12 @@
     background: #fff;
     font-size: 18.75px;
     font-weight: 500;
-    /* font-family: inter; */
+    font-family: "Inter", sans-serif;
+}
+.section-2-btn-2:hover {
+  border: 1px solid #E7760D;
+  background: #E7760D;
+  color: #fff;
 }
 .section-3 {
     background-color: #072F57;

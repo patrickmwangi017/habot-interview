@@ -11,5 +11,9 @@
     height: 50px;
     border-radius: 5px;
     border: 1px solid #00732F;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color: #00732F;
   }
   
