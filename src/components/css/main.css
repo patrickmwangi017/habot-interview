@@ -65,8 +65,11 @@
   @media (max-width: 768px) {
     .search-input-group {
       flex-direction: column; /* Stack inputs vertically */
-      align-items: stretch; /* Stretch inputs to full width */
+      align-items: center; /* Stretch inputs to full width */
     }
+    .section-1 {
+      height: auto;
+  }
   }
 .section-2-btn, .section-2-btn:hover {
     width: 317px;

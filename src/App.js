@@ -198,7 +198,7 @@ function App() {
               <Card icon={Icon3} title="Review, Select, and Contact the Best Suppliers" backgroundColor="#E8FBFF" />
             </div>
           </div>
-          <div className="row mt-4">
+          <div className="row">
             <div className="col-md-4 p-0">
               <Card icon={Icon4} title="Suppliers Complete your profile and get notified for opportunities" backgroundColor="#fff" />
             </div>
