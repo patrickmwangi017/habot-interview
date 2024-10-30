@@ -17,6 +17,8 @@ const VideoSection = () => {
           style={{
             backgroundImage: `url(${BackgroundImage})`,
             backgroundSize: 'cover',
+            backgroundPosition: 'center', // Center the background image
+            backgroundRepeat: 'no-repeat', // Prevent the image from repeating
             width: '100%',
             height: '350px',
             position: 'relative',
