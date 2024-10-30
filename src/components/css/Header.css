@@ -16,4 +16,8 @@
     font-family: "Inter", sans-serif;
     color: #00732F;
   }
-  
+  .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 14.25px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+  }
