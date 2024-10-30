@@ -43,7 +43,7 @@ const VideoSection = () => {
         <iframe
           width="100%"
           height="350px"
-          src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1"
+          src="https://www.youtube.com/embed/joiyb6c_Ry4?autoplay=1"
           frameBorder="0"
           allowFullScreen
         />
