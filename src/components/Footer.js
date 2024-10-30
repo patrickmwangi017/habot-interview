@@ -11,8 +11,8 @@ function Footer() {
   return (
     <footer>
       <Container className='h-100 pt-20 pb-20'>
-        <div className="row h-100 footer-main-row d-flex align-items-center justify-content-center">
-          <div className='col-md-2'>
+        <div className="row h-100 footer-main-row d-flex justify-content-center">
+          <div className='col-md-2' style={{ paddingTop: "2%" }}>
             <img
               src="./logo-white.png" // Replace with the path to your logo
               alt="Logo"

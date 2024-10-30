@@ -33,7 +33,7 @@ footer .list-unstyled {
 footer .footer-main-row {
   border-top: 1px solid rgba(255, 255, 255, 0.2); /* 20% opacity */
   border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* 20% opacity */
-  /* padding-top: 7%; */
+  padding-top: 5%;
 }
 .footer-social-icon {
   width: 40px;
